@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fff2f5"><meta name="description" content="A little birthday scrapbook made with love for Momo.">
+  <title>A little birthday magic for Momo ♡</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Sacramento&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="celebration" aria-hidden="true"></canvas><div class="ambient" aria-hidden="true">♡　✦　♡　✧　♡</div>
+  <button id="music-toggle" class="music" aria-label="Play birthday music">♫ <span>Music</span></button><audio id="music" src="audio/birthday-song.mp3" preload="none" loop></audio>
+  <main>
+    <section id="opening" class="opening screen-section">
+      <p class="eyebrow gift-eyebrow">A LITTLE SOMETHING MADE WITH LOVE</p>
+      <h1 class="gift-invite">A little surprise for Momo <span>♡</span></h1>
+      <button id="gift" class="gift-button" aria-label="Tap to open your gift"><span class="gift-lid"><span class="bow">♡</span></span><span class="gift-box"><span class="ribbon-v"></span><span class="ribbon-h"></span></span></button>
+      <p class="hint gift-hint">Tap to open your gift</p>
+      <p class="small-note">Made with all my love ♡</p>
+    </section>
+    <section id="birthday" class="birthday hidden screen-section">
+      <svg class="home-decor" viewBox="0 0 1672 937" preserveAspectRatio="none" aria-hidden="true">
+        <g class="kiss kiss-left"><path d="M0 27C12 0 35 2 42 17 54-1 78 6 76 27c-2 25-31 46-39 52C27 68-9 50 0 27Z"/><path d="M12 29c13-9 38-9 52 0M17 39c12-7 29-7 42 0M24 49c9-4 19-4 28 0"/></g>
+        <g class="kiss kiss-right"><path d="M0 27C12 0 35 2 42 17 54-1 78 6 76 27c-2 25-31 46-39 52C27 68-9 50 0 27Z"/><path d="M12 29c13-9 38-9 52 0M17 39c12-7 29-7 42 0M24 49c9-4 19-4 28 0"/></g>
+        <g class="balloons balloon-right"><path class="balloon-fill" d="M45 7C20 7 5 29 9 56c3 24 23 45 36 54 13-9 33-30 36-54C85 29 70 7 45 7Z"/><path class="balloon-shine" d="M27 22c-7 9-8 20-4 29"/><path class="string" d="M45 110c-13 25 18 31 5 57-5 7-7 13-3 19"/><path class="bow" d="m46 113-15-12 2 16 13-4 13 11 3-15-16 2Z"/><path class="balloon-fill second" d="M112 48c-23 0-37 20-34 43 3 21 20 39 32 47 12-8 30-26 32-47 4-23-9-43-30-43Z"/><path class="balloon-shine" d="M101 61c-7 8-8 18-5 26"/><path class="string" d="M111 138c-8 20 18 27 9 48-3 6-5 11-1 17"/><path class="bow" d="m111 141-13-11 1 14 12-3 12 10 3-13-15 3Z"/></g>
+        <g class="balloons balloon-left"><path class="balloon-fill" d="M44 5C20 5 5 26 9 52c3 23 22 43 35 52 13-9 32-29 35-52C83 26 68 5 44 5Z"/><path class="balloon-shine" d="M27 20c-7 9-8 18-4 28"/><path class="string" d="M44 104c-12 23 17 30 5 52-4 7-6 12-2 18"/><path class="bow" d="m45 107-14-11 2 15 12-3 12 10 3-14-15 3Z"/><path class="balloon-fill second" d="M106 74c-22 0-35 19-32 41 3 20 19 37 30 45 12-8 29-25 32-45 3-22-10-41-30-41Z"/><path class="balloon-shine" d="M96 86c-6 8-7 17-4 25"/><path class="string" d="M105 160c-8 18 17 25 8 44-3 5-4 10-1 15"/><path class="bow" d="m106 163-12-10 1 13 11-3 11 9 3-12-14 3Z"/></g>
+        <g class="hearts"><path d="M0 8C0-1 12-2 15 6c4-8 16-7 16 2 0 10-16 20-16 20S0 18 0 8Z"/><path d="M0 6C0-1 9-2 12 4c3-6 12-5 12 2 0 8-12 15-12 15S0 14 0 6Z"/><path d="M0 7C0 0 10-1 13 5c3-6 13-5 13 2 0 9-13 17-13 17S0 16 0 7Z"/><path d="M0 5C0-1 8-2 11 3c3-5 11-4 11 2 0 8-11 15-11 15S0 13 0 5Z"/></g>
+        <g class="dots"><circle cx="6" cy="6" r="6"/><circle cx="6" cy="6" r="4"/><circle cx="6" cy="6" r="7"/><circle cx="6" cy="6" r="5"/><circle cx="6" cy="6" r="6"/><circle cx="6" cy="6" r="4"/></g>
+        <g class="strokes"><path d="M0 20c18-3 17-15 5-17M0 4c10 2 9 9 1 12"/><path d="M0 3c4 9 11 10 16 0M0 5c2 5 6 6 9 0"/><path d="M0 16c15-5 17-13 8-16M5 19c4-6 9-5 11 0"/></g>
+      </svg>
+      <div class="home-greeting"><div class="eyebrow">TODAY IS ALL ABOUT YOU</div><h1>Happy Birthday</h1><div class="bday-name">Momo! <span>♡</span></div><p class="intro">A little present for my favourite person.</p><button class="primary reference-open" data-scroll="questions" aria-label="Open your surprise">Open your surprise ♡</button></div>
+      <img class="birthday-character" src="images/stickers/birthday-character.gif" alt="A cute animated birthday character" onerror="this.hidden=true">
+    </section>
+    <section id="questions" class="content-section hidden"><p class="eyebrow">A VERY IMPORTANT QUIZ</p><h2>Just one tiny question…</h2><div class="question-card"><div id="question-count" class="count">01 / 03</div><p id="question-text"></p><div id="answers" class="answers"></div><p id="reaction" class="reaction" aria-live="polite"></p></div></section>
+    <section id="memories" class="content-section hidden"><p class="eyebrow">OUR LITTLE SCRAPBOOK</p><h2>Collected with love <span>♡</span></h2><p class="section-note">Every version of you, every little version of us.</p>
+      <div class="gallery-cards">
+        <button class="gallery-card" data-gallery="momo"><img class="card-gif" src="https://media.tenor.com/3qIAMwBVG8UAAAAm/finger-guns-dudu.webp" alt="" aria-hidden="true" onerror="this.hidden=true"><span class="card-doodle">♡</span><span class="card-title">Momo’s little world</span><span class="card-sub">my favourite view, always</span><span class="card-count" data-card-count="momo"></span></button>
+        <button class="gallery-card blue" data-gallery="us"><img class="card-gif" src="https://media.tenor.com/Zrr4L_Wd4JkAAAAm/bubu-rub-bubu-love-dudu.webp" alt="" aria-hidden="true" onerror="this.hidden=true"><span class="card-doodle">✿</span><span class="card-title">Us, being us</span><span class="card-sub">my favourite person</span><span class="card-count" data-card-count="us"></span></button>
+        <button class="gallery-card lilac" data-gallery="moments"><img class="card-gif" src="https://media.tenor.com/BvlQdl0TAeIAAAAm/cute.webp" alt="" aria-hidden="true" onerror="this.hidden=true"><span class="card-doodle">✧</span><span class="card-title">Our little moments ♡</span><span class="card-sub">memories that feel like home</span><span class="card-count" data-card-count="moments"></span></button>
+      </div>
+      <button class="primary memories-next" data-next-screen="letter-section">Read my letter ♡</button>
+      <div class="gallery-frame hidden" id="gallery" role="dialog" aria-modal="true" aria-label="Photo gallery"><button class="close-gallery" aria-label="Close gallery">×</button><button class="nav prev" aria-label="Previous photo">‹</button><figure><img id="gallery-image" alt="" draggable="false"><figcaption id="caption"></figcaption></figure><button class="nav next" aria-label="Next photo">›</button><div class="gallery-meta"><span id="photo-counter"></span><span class="swipe-hint">swipe to wander ♡</span></div></div>
+    </section>
+    <section id="letter-section" class="content-section hidden"><p class="eyebrow">A NOTE FROM MY HEART</p><h2>For you, always</h2><article class="letter"><span class="seal">♡</span><div id="letter-text" contenteditable="true" spellcheck="true">Happy Birthday, my Momo. ♡
+
+If I could give you one thing today, it would be the ability to see yourself through my eyes. Maybe then you would understand how special you are to me.
+
+Thank you for being my favourite person, for our little moments, and for making my world warmer just by being in it.
+
+I hope this year brings you happiness, success, peace, and everything your heart wishes for. I hope we celebrate countless more birthdays, make silly memories, annoy each other with love, and keep choosing each other every day.
+
+No matter how far apart we are, a little piece of my heart will always belong to you.
+
+Happy Birthday, Momo. I love you more than these words could ever explain. ♡
+
+Forever your girl ♡</div><p class="edit-tip">This letter is yours to edit ♡</p></article><button id="final-button" class="primary">One last little thing ♡</button></section>
+    <section id="finale" class="content-section finale hidden"><p class="eyebrow">MY FAVOURITE PERSON</p><h2>You are my favourite part of this life.</h2><p>Today, tomorrow, and in all the little moments in between.<br>Happy Birthday, my love. ♡</p><button id="replay" class="primary">Let’s do it all again ♡</button></section>
+  </main>
+  <footer class="hidden">made with all my love ♡</footer>
+  <script src="media.js"></script><script src="script.js"></script>
+</body></html>
